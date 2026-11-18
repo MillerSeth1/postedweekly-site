@@ -39,10 +39,10 @@
 <main id="main">
 <div class="wrap hero">
   <h1>Get started</h1>
-  <p>Tell us a little about your business and which plan you want. This form opens an email to hello@postedweekly.com — nothing is charged and no third-party form service is used. We’ll follow up to get your first free post underway.</p>
+  <p>Tell us a little about your business and which plan you want. This form opens an email to intake@postedweekly.com — nothing is charged and no third-party form service is used. We’ll follow up to get your first free post underway.</p>
 </div>
 <section><div class="wrap">
-<form class="form" id="intake" action="mailto:hello@postedweekly.com" method="get" enctype="text/plain">
+<form class="form" id="intake" action="mailto:intake@postedweekly.com" method="get" enctype="text/plain">
   <input type="hidden" name="subject" value="Posted Weekly signup">
   <div class="field">
     <label for="name">Your name</label>
@@ -80,7 +80,7 @@
     <a class="btn ghost" href="mailto:hello@postedweekly.com">Or just email hello@postedweekly.com</a>
   </div>
   <p class="status note" id="form-status" role="status"></p>
-  <p class="note">If a mail window doesn’t open, copy your answers and send them to <a href="mailto:hello@postedweekly.com">hello@postedweekly.com</a>. Online payment will be added later; nothing is billed from this form.</p>
+  <p class="note">If a mail window doesn’t open, copy your answers and send them to <a href="mailto:intake@postedweekly.com">intake@postedweekly.com</a>. Online payment will be added later; nothing is billed from this form.</p>
 </form>
 </div></section>
 </main>
@@ -108,9 +108,9 @@
       "Service area: " + val("area"),
       "Services: " + val("services"),
       "Plan: " + planLabel
-    ].join("\\n");
-    var href = "mailto:hello@postedweekly.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-    status.textContent = "Opening your email app with a message to hello@postedweekly.com. If nothing opens, email us those details directly.";
+    ].join("\r\n");
+    var href = "mailto:intake@postedweekly.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    status.textContent = "Opening your email app with a message to intake@postedweekly.com. If nothing opens, email us those details directly.";
     window.location.href = href;
   });
 })();
