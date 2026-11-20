@@ -71,3 +71,12 @@ article.post td,article.post th{border:1px solid var(--line);padding:6px 10px;te
   .hero{padding:40px 0 32px}
   header.top .wrap{height:auto}
 }
+
+.blog-list{display:grid;gap:16px;max-width:720px}
+.blog-list .card .meta{margin-top:10px;font-size:14px;color:var(--muted)}
+.post-meta{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-size:14px;color:var(--muted);margin:0 0 16px}
+.post-meta .tag{font-size:13px;color:var(--green);font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.post-cta{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:24px;margin:36px 0 16px}
+.post-cta h2{margin:0 0 8px;font-size:22px}
+.post-cta p{margin:0 0 16px;color:var(--muted)}
+.post-back{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-size:15px;margin:0}
